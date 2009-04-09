@@ -1,0 +1,32 @@
+html{ background:#fff; padding:5px;}
+body{font-size:11px;font-family:Tahoma, Verdana, Arial;color:#6d6d6d;background:#7394B8; width: 750px; margin:10px auto; text-align:center; border:1px solid #666; line-height:15px; padding:3px;}
+a:link,a:visited{text-decoration:none;color:#4c4c4c;font-weight:700;}
+a:hover,a:focus{text-decoration:underline;color:#6a6a6a;}
+h1{ color:#fff; font-size:24px;}
+h2{ color:#fff; font-size:20px;}
+#footer{ padding-bottom:4px;}
+.graph{ margin:0 auto;}
+table{ margin:0 auto; background:#fff;  }
+fieldset{ text-align:left;}
+
+pre {
+	border:1px solid #3C3C3C;
+	margin:5px 40px;
+	text-align:left;
+	
+}
+
+code {
+	background:#517977 none repeat scroll 0%;
+}
+
+pre code {
+	background:#f3f3f3 ;
+	color:#3C3C3C;
+	display:block;
+	line-height:21px;
+	margin:0pt;
+	overflow:auto;
+	padding:0pt 5px 0pt 26px;
+	white-space:pre;
+}

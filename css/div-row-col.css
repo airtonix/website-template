@@ -1,0 +1,393 @@
+/* coloumns and rows */
+.row{
+	clear:both;
+	padding:0em !important;
+	margin:0em !important;
+	display:block;
+}
+
+.col{
+	display:inline;
+	float:left;
+	padding:0em;
+	margin:0em;
+}
+
+.inner, .row-inner, .col-inner{
+	padding:0em;
+	margin:0em;
+	display:block;
+	width:100%;
+	height:100%;
+}
+.border-right{
+	border-right:1px dotted silver;
+}
+.border-left{
+	border-left:1px dotted silver;
+}
+.border-top{
+	border-top:1px dotted silver;
+}
+.border-bottom{
+	border-bottom:1px dotted silver;
+}
+
+* html .border-right{
+	background: transparent url("../images/dot.gif") repeat-y  top right ; 
+	border:none;
+}
+* html .border-left{
+	background: transparent url("../images/dot.gif") repeat-y  top left ; 
+	border:none;
+}
+* html .border-top{
+	background: transparent url("../images/dot.gif") repeat-x  top left ; 
+	border:none;
+}
+* html .border-bottom{
+	background: transparent url("../images/dot.gif") repeat-x  bottom left ; 
+	border:none;
+}
+.close-row, .breaker, .break{
+	clear:both;
+	display:block;
+	height:0px;
+	padding:0em;
+	margin:0em;
+}
+
+.padding-0-1{
+	padding:.1em;
+}
+.padding-0-5{
+
+	padding:.5em;
+}
+.padding-1{
+	padding:1em;
+}
+
+
+
+	
+/* widths */
+.width-1{width:1%;}
+.width-2{width:2%;}
+.width-3{width:3%;}
+.width-4{width:4%;}
+.width-5{width:5%;}
+.width-6{width:6%;}
+.width-7{width:7%;}
+.width-8{width:8%;}
+.width-9{width:9%;}
+.width-10{width:10%;}
+.width-11{width:11%;}
+.width-12{width:12%;}
+.width-13{width:13%;}
+.width-14{width:14%;}
+.width-15{width:15%;}
+.width-16{width:16%;}
+.width-17{width:17%;}
+.width-18{width:18%;}
+.width-19{width:19%;}
+.width-20{width:20%;}
+.width-21{width:21%;}
+.width-22{width:22%;}
+.width-23{width:23%;}
+.width-24{width:24%;}
+.width-25{width:25%;}
+.width-26{width:26%;}
+.width-27{width:27%;}
+.width-28{width:28%;}
+.width-29{width:29%;}
+.width-30{width:30%;}
+.width-31{width:31%;}
+.width-32{width:32%;}
+.width-33{width:33%;}
+.width-34{width:34%;}
+.width-35{width:35%;}
+.width-36{width:36%;}
+.width-37{width:37%;}
+.width-38{width:38%;}
+.width-39{width:39%;}
+.width-40{width:40%;}
+.width-41{width:41%;}
+.width-42{width:42%;}
+.width-43{width:43%;}
+.width-44{width:44%;}
+.width-45{width:45%;}
+.width-46{width:46%;}
+.width-47{width:47%;}
+.width-48{width:48%;}
+.width-49{width:49%;}
+.width-50{width:50%;}
+.width-51{width:51%;}
+.width-52{width:52%;}
+.width-53{width:53%;}
+.width-54{width:54%;}
+.width-55{width:55%;}
+.width-56{width:56%;}
+.width-57{width:57%;}
+.width-58{width:58%;}
+.width-59{width:59%;}
+.width-60{width:60%;}
+.width-61{width:61%;}
+.width-62{width:62%;}
+.width-63{width:63%;}
+.width-64{width:64%;}
+.width-65{width:65%;}
+.width-66{width:66%;}
+.width-67{width:67%;}
+.width-68{width:68%;}
+.width-69{width:69%;}
+.width-70{width:70%;}
+.width-71{width:71%;}
+.width-72{width:72%;}
+.width-73{width:73%;}
+.width-74{width:74%;}
+.width-75{width:75%;}
+.width-76{width:76%;}
+.width-77{width:77%;}
+.width-78{width:78%;}
+.width-79{width:79%;}
+.width-80{width:80%;}
+.width-81{width:81%;}
+.width-82{width:82%;}
+.width-83{width:83%;}
+.width-84{width:84%;}
+.width-85{width:85%;}
+.width-86{width:86%;}
+.width-87{width:87%;}
+.width-88{width:88%;}
+.width-89{width:89%;}
+.width-90{width:90%;}
+.width-91{width:91%;}
+.width-92{width:92%;}
+.width-93{width:93%;}
+.width-94{width:94%;}
+.width-95{width:95%;}
+.width-96{width:96%;}
+.width-97{width:97%;}
+.width-98{width:98%;}
+.width-99{width:99%;}
+.width-100{width:100%;}
+
+.height-1{height:1%;}
+.height-2{height:2%;}
+.height-3{height:3%;}
+.height-4{height:4%;}
+.height-5{height:5%;}
+.height-6{height:6%;}
+.height-7{height:7%;}
+.height-8{height:8%;}
+.height-9{height:9%;}
+.height-10{height:10%;}
+.height-11{height:11%;}
+.height-12{height:12%;}
+.height-13{height:13%;}
+.height-14{height:14%;}
+.height-15{height:15%;}
+.height-16{height:16%;}
+.height-17{height:17%;}
+.height-18{height:18%;}
+.height-19{height:19%;}
+.height-20{height:20%;}
+.height-21{height:21%;}
+.height-22{height:22%;}
+.height-23{height:23%;}
+.height-24{height:24%;}
+.height-25{height:25%;}
+.height-26{height:26%;}
+.height-27{height:27%;}
+.height-28{height:28%;}
+.height-29{height:29%;}
+.height-30{height:30%;}
+.height-31{height:31%;}
+.height-32{height:32%;}
+.height-33{height:33%;}
+.height-34{height:34%;}
+.height-35{height:35%;}
+.height-36{height:36%;}
+.height-37{height:37%;}
+.height-38{height:38%;}
+.height-39{height:39%;}
+.height-40{height:40%;}
+.height-41{height:41%;}
+.height-42{height:42%;}
+.height-43{height:43%;}
+.height-44{height:44%;}
+.height-45{height:45%;}
+.height-46{height:46%;}
+.height-47{height:47%;}
+.height-48{height:48%;}
+.height-49{height:49%;}
+.height-50{height:50%;}
+.height-51{height:51%;}
+.height-52{height:52%;}
+.height-53{height:53%;}
+.height-54{height:54%;}
+.height-55{height:55%;}
+.height-56{height:56%;}
+.height-57{height:57%;}
+.height-58{height:58%;}
+.height-59{height:59%;}
+.height-60{height:60%;}
+.height-61{height:61%;}
+.height-62{height:62%;}
+.height-63{height:63%;}
+.height-64{height:64%;}
+.height-65{height:65%;}
+.height-66{height:66%;}
+.height-67{height:67%;}
+.height-68{height:68%;}
+.height-69{height:69%;}
+.height-70{height:70%;}
+.height-71{height:71%;}
+.height-72{height:72%;}
+.height-73{height:73%;}
+.height-74{height:74%;}
+.height-75{height:75%;}
+.height-76{height:76%;}
+.height-77{height:77%;}
+.height-78{height:78%;}
+.height-79{height:79%;}
+.height-80{height:80%;}
+.height-81{height:81%;}
+.height-82{height:82%;}
+.height-83{height:83%;}
+.height-84{height:84%;}
+.height-85{height:85%;}
+.height-86{height:86%;}
+.height-87{height:87%;}
+.height-88{height:88%;}
+.height-89{height:89%;}
+.height-90{height:90%;}
+.height-91{height:91%;}
+.height-92{height:92%;}
+.height-93{height:93%;}
+.height-94{height:94%;}
+.height-95{height:95%;}
+.height-96{height:96%;}
+.height-97{height:97%;}
+.height-98{height:98%;}
+.height-99{height:99%;}
+.height-100{height:100%;}
+
+/* edges */
+
+.left-edge{
+	display:inline;
+}
+.right-edge{
+	display:inline;
+}
+.top-edge{
+
+}
+.bottom-edge{
+
+}
+
+
+/* dots */
+	.vertDots-1{ background: transparent url("../images/dot.gif") repeat-y  1% 0% ; }
+	.vertDots-2{ background: transparent url("../images/dot.gif") repeat-y  2% 0% ; }
+	.vertDots-3{ background: transparent url("../images/dot.gif") repeat-y  3% 0% ; }
+	.vertDots-4{ background: transparent url("../images/dot.gif") repeat-y  4% 0% ; }
+	.vertDots-5{ background: transparent url("../images/dot.gif") repeat-y  5% 0% ; }
+	.vertDots-6{ background: transparent url("../images/dot.gif") repeat-y  6% 0% ; }
+	.vertDots-7{ background: transparent url("../images/dot.gif") repeat-y  7% 0% ; }
+	.vertDots-8{ background: transparent url("../images/dot.gif") repeat-y  8% 0% ; }
+	.vertDots-9{ background: transparent url("../images/dot.gif") repeat-y  9% 0% ; }
+	.vertDots-10{ background: transparent url("../images/dot.gif") repeat-y  10% 0% ; }
+	.vertDots-11{ background: transparent url("../images/dot.gif") repeat-y  11% 0% ; }
+	.vertDots-12{ background: transparent url("../images/dot.gif") repeat-y  12% 0% ; }
+	.vertDots-13{ background: transparent url("../images/dot.gif") repeat-y  13% 0% ; }
+	.vertDots-14{ background: transparent url("../images/dot.gif") repeat-y  14% 0% ; }
+	.vertDots-15{ background: transparent url("../images/dot.gif") repeat-y  15% 0% ; }
+	.vertDots-16{ background: transparent url("../images/dot.gif") repeat-y  16% 0% ; }
+	.vertDots-17{ background: transparent url("../images/dot.gif") repeat-y  17% 0% ; }
+	.vertDots-18{ background: transparent url("../images/dot.gif") repeat-y  18% 0% ; }
+	.vertDots-19{ background: transparent url("../images/dot.gif") repeat-y  19% 0% ; }
+	.vertDots-20{ background: transparent url("../images/dot.gif") repeat-y  20% 0% ; }
+	.vertDots-21{ background: transparent url("../images/dot.gif") repeat-y  21% 0% ; }
+	.vertDots-22{ background: transparent url("../images/dot.gif") repeat-y  22% 0% ; }
+	.vertDots-23{ background: transparent url("../images/dot.gif") repeat-y  23% 0% ; }
+	.vertDots-24{ background: transparent url("../images/dot.gif") repeat-y  24% 0% ; }
+	.vertDots-25{ background: transparent url("../images/dot.gif") repeat-y  25% 0% ; }
+	.vertDots-30{ background: transparent url("../images/dot.gif") repeat-y  30% 0% ; }
+	.vertDots-31{ background: transparent url("../images/dot.gif") repeat-y  31% 0% ; }
+	.vertDots-32{ background: transparent url("../images/dot.gif") repeat-y  32% 0% ; }
+	.vertDots-33{ background: transparent url("../images/dot.gif") repeat-y  33% 0% ; }
+	.vertDots-34{ background: transparent url("../images/dot.gif") repeat-y  34% 0% ; }
+	.vertDots-35{ background: transparent url("../images/dot.gif") repeat-y  35% 0% ; }
+	.vertDots-36{ background: transparent url("../images/dot.gif") repeat-y  36% 0% ; }
+	.vertDots-37{ background: transparent url("../images/dot.gif") repeat-y  37% 0% ; }
+	.vertDots-38{ background: transparent url("../images/dot.gif") repeat-y  38% 0% ; }
+	.vertDots-39{ background: transparent url("../images/dot.gif") repeat-y  39% 0% ; }
+	.vertDots-40{ background: transparent url("../images/dot.gif") repeat-y  40% 0% ; }
+	.vertDots-41{ background: transparent url("../images/dot.gif") repeat-y  41% 0% ; }
+	.vertDots-42{ background: transparent url("../images/dot.gif") repeat-y  42% 0% ; }
+	.vertDots-43{ background: transparent url("../images/dot.gif") repeat-y  43% 0% ; }
+	.vertDots-44{ background: transparent url("../images/dot.gif") repeat-y  44% 0% ; }
+	.vertDots-45{ background: transparent url("../images/dot.gif") repeat-y  45% 0% ; }
+	.vertDots-46{ background: transparent url("../images/dot.gif") repeat-y  46% 0% ; }
+	.vertDots-47{ background: transparent url("../images/dot.gif") repeat-y  47% 0% ; }
+	.vertDots-48{ background: transparent url("../images/dot.gif") repeat-y  48% 0% ; }
+	.vertDots-49{ background: transparent url("../images/dot.gif") repeat-y  49% 0% ; }
+	.vertDots-50{ background: transparent url("../images/dot.gif") repeat-y  50% 0% ; }
+	.vertDots-51{ background: transparent url("../images/dot.gif") repeat-y  51% 0% ; }
+	.vertDots-52{ background: transparent url("../images/dot.gif") repeat-y  52% 0% ; }
+	.vertDots-53{ background: transparent url("../images/dot.gif") repeat-y  53% 0% ; }
+	.vertDots-54{ background: transparent url("../images/dot.gif") repeat-y  54% 0% ; }
+	.vertDots-55{ background: transparent url("../images/dot.gif") repeat-y  55% 0% ; }
+	.vertDots-56{ background: transparent url("../images/dot.gif") repeat-y  56% 0% ; }
+	.vertDots-57{ background: transparent url("../images/dot.gif") repeat-y  57% 0% ; }
+	.vertDots-58{ background: transparent url("../images/dot.gif") repeat-y  58% 0% ; }
+	.vertDots-59{ background: transparent url("../images/dot.gif") repeat-y  59% 0% ; }
+	.vertDots-60{ background: transparent url("../images/dot.gif") repeat-y  60% 0% ; }
+	.vertDots-61{ background: transparent url("../images/dot.gif") repeat-y  61% 0% ; }
+	.vertDots-62{ background: transparent url("../images/dot.gif") repeat-y  62% 0% ; }
+	.vertDots-63{ background: transparent url("../images/dot.gif") repeat-y  63% 0% ; }
+	.vertDots-64{ background: transparent url("../images/dot.gif") repeat-y  64% 0% ; }
+	.vertDots-65{ background: transparent url("../images/dot.gif") repeat-y  65% 0% ; }
+	.vertDots-66{ background: transparent url("../images/dot.gif") repeat-y  66% 0% ; }
+	.vertDots-67{ background: transparent url("../images/dot.gif") repeat-y  67% 0% ; }
+	.vertDots-68{ background: transparent url("../images/dot.gif") repeat-y  68% 0% ; }
+	.vertDots-69{ background: transparent url("../images/dot.gif") repeat-y  69% 0% ; }
+	.vertDots-70{ background: transparent url("../images/dot.gif") repeat-y  70% 0% ; }
+	.vertDots-71{ background: transparent url("../images/dot.gif") repeat-y  71% 0% ; }
+	.vertDots-72{ background: transparent url("../images/dot.gif") repeat-y  72% 0% ; }
+	.vertDots-73{ background: transparent url("../images/dot.gif") repeat-y  73% 0% ; }
+	.vertDots-74{ background: transparent url("../images/dot.gif") repeat-y  74% 0% ; }
+	.vertDots-75{ background: transparent url("../images/dot.gif") repeat-y  75% 0% ; }
+	.vertDots-76{ background: transparent url("../images/dot.gif") repeat-y  76% 0% ; }
+	.vertDots-77{ background: transparent url("../images/dot.gif") repeat-y  77% 0% ; }
+	.vertDots-78{ background: transparent url("../images/dot.gif") repeat-y  78% 0% ; }
+	.vertDots-79{ background: transparent url("../images/dot.gif") repeat-y  79% 0% ; }
+	.vertDots-80{ background: transparent url("../images/dot.gif") repeat-y  80% 0% ; }
+	.vertDots-81{ background: transparent url("../images/dot.gif") repeat-y  81% 0% ; }
+	.vertDots-82{ background: transparent url("../images/dot.gif") repeat-y  82% 0% ; }
+	.vertDots-83{ background: transparent url("../images/dot.gif") repeat-y  83% 0% ; }
+	.vertDots-84{ background: transparent url("../images/dot.gif") repeat-y  84% 0% ; }
+	.vertDots-85{ background: transparent url("../images/dot.gif") repeat-y  85% 0% ; }
+	.vertDots-86{ background: transparent url("../images/dot.gif") repeat-y  86% 0% ; }
+	.vertDots-87{ background: transparent url("../images/dot.gif") repeat-y  87% 0% ; }
+	.vertDots-88{ background: transparent url("../images/dot.gif") repeat-y  88% 0% ; }
+	.vertDots-89{ background: transparent url("../images/dot.gif") repeat-y  89% 0% ; }
+	.vertDots-90{ background: transparent url("../images/dot.gif") repeat-y  90% 0% ; }
+	.vertDots-91{ background: transparent url("../images/dot.gif") repeat-y  91% 0% ; }
+	.vertDots-92{ background: transparent url("../images/dot.gif") repeat-y  92% 0% ; }
+	.vertDots-93{ background: transparent url("../images/dot.gif") repeat-y  93% 0% ; }
+	.vertDots-94{ background: transparent url("../images/dot.gif") repeat-y  94% 0% ; }
+	.vertDots-95{ background: transparent url("../images/dot.gif") repeat-y  95% 0% ; }
+	.vertDots-96{ background: transparent url("../images/dot.gif") repeat-y  96% 0% ; }
+	.vertDots-97{ background: transparent url("../images/dot.gif") repeat-y  97% 0% ; }
+	.vertDots-98{ background: transparent url("../images/dot.gif") repeat-y  98% 0% ; }
+	.vertDots-99{ background: transparent url("../images/dot.gif") repeat-y  99% 0% ; }
+	.vertDots-100{ background: transparent url("../images/dot.gif") repeat-y  100% 0% ; }
+
+	.row-dots{ background: transparent url("../images/dot.gif") repeat-x  top left ; }
+	.col-dots{ background: transparent url("../images/dot.gif") repeat-y  top left ; }
+
